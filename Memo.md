@@ -1,4 +1,3 @@
-
 # MQ 
 * 測試URL
   * [MQ UAT](https://staffuat.taiwanlife.com/MQTs/MQTs101.asp?trgcode=300&pgmname=INT340C&inputparm=0000495540403086%2CAJSD2184) staffuat.taiwanlife.com
@@ -43,12 +42,14 @@
    * MMAS
      > 175.184.247.72:24114
    * 憑證中心
-     > 10.174.4.4
+     > 10.174.4.4(mistest3)
 * PROD
    * 伺服器:WEBSVR4
    * 伺服器ip:10.174.3.60
    * url:https://customer.ctbclife.com/svcatm/CTLATMService.asmx
    * DB:missvr3(10.174.3.156)
+   * 憑證中心
+     > missvr29(10.174.3.34)
  * 其它  
  # 立即繳系統
 ## 環境
@@ -61,13 +62,16 @@
    * url:https://uat.taiwanlife.com/
    * 資料庫:UATW16008
    * 資料庫ip:10.1.249.42
-   
+   * 測試帳號
+      * R222412421    WS*****
+      * N220123080    12345678a  
 * PROD
    * 伺服器:10.1.2.207(HQ0W16100)
-   * url:https://www.taiwanlife.com/
+   * url:https://www.taiwanlife.com/ 
    * 資料庫:HQ0W16025
    * 資料庫ip:10.1.101.53
-  
+
+
 ## 移機Memo
 1. HOST:UATW16075(10.1.244.55)
  申請內部IP需在244網段
